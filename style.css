@@ -41,6 +41,19 @@ main img {
   flex-direction: column;
 }
 
+.horizontal-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 .item {
   flex: 1;
   margin: 10px;
@@ -79,10 +92,16 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+#menu {
+  margin-top: 0;
+  padding: 0 0 20px 0;
+}
+
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  /* justify-content: space-between */
 }
 
 form label {
