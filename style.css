@@ -8,9 +8,26 @@
   border: 1px solid white;
 }
 
+.target {
+  width: 85%;
+  /* border: 1px solid red; */
+  margin: 25px auto;
+}
+
 #menu {
   text-align: center;
+  padding: 0 5rem 1rem 5rem ;
 }
+
+.container-fill {
+  width: 80%;
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+
+/* .container {
+  width: 88%;
+} */
 
 .center {
   text-align: center;
@@ -56,6 +73,13 @@ main img {
   width: 100px;
 }
 
+main img {
+  width: 100%;
+}
+
+/* .main p {
+ width: 80%;
+} */
 /* ---  Groups & Items --- */
 .flex-row {
   display: flex;
@@ -65,6 +89,10 @@ main img {
 .group {
   display: flex;
   flex-direction: column;     /* Should be for laying things out up and down the screen */
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 .item {
