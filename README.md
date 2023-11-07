@@ -1,9 +1,15 @@
 ## Change log
 
 - Understand Flexbox
-- Another commit
-- Anutha one
-- We the best!!
+  - parent child relationship
+  - display: flex
+  - justify content
+  - align-items
+
+- Understanding troubleshooting
+- use borders to understand elements/box-model
+- positioning: flex/relative/absolute
+
 
 # Thinkfulbnb
 
