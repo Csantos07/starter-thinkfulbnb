@@ -1,5 +1,10 @@
 ## Change log
 
+The last changes made
+- Looks like a decent first attempt at mobile.
+- Still needs the form section
+- I will go on to complet desktop views of the existing sections.
+
 - Understand Flexbox
   - parent child relationship
   - display: flex

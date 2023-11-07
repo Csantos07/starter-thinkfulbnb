@@ -9,9 +9,9 @@
 }
 
 .target {
-  width: 85%;
+  width: 83%;
   /* border: 1px solid red; */
-  margin: 25px auto;
+  margin: 20px auto;
 }
 
 #menu {
@@ -20,14 +20,8 @@
 }
 
 .container-fill {
-  width: 80%;
-  /* padding: 1rem; */
   margin: 1rem;
 }
-
-/* .container {
-  width: 88%;
-} */
 
 .center {
   text-align: center;
@@ -36,8 +30,6 @@
 ul {
   margin: auto;
 }
-
-
 
 body {
   font-family: "Lato", sans-serif;
