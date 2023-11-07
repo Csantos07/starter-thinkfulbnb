@@ -10,6 +10,9 @@
 - use borders to understand elements/box-model
 - positioning: flex/relative/absolute
 
+- Shortcut commands
++ `cmd + d:` selects the next matching word & the cursor will take multiple areas
+
 
 # Thinkfulbnb
 
