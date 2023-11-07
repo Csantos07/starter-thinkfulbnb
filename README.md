@@ -14,6 +14,13 @@
 + `cmd + d:` selects the next matching word & the cursor will take multiple areas
 
 
+
+Creating your own branch
+`git checkout -b name-of-your-branch`
+Use this to expriment.
+No worries of breaking!!
+
+
 # Thinkfulbnb
 
 Thinkfulbnb is a vacation rental website that allows people to rent out their homes to people who are seeking short-term accommodations in that locale. Thinkfulbnb hosts rent out different kinds of properties, including single rooms, apartments, and unique living spaces such as yachts, houseboats, yurts, tiny houses, and even renovated medieval castles.
