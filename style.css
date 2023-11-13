@@ -25,10 +25,6 @@
   margin: 1rem;
 }
 
-/* .container {
-  width: 88%;
-} */
-
 .center {
   text-align: center;
 }
@@ -157,7 +153,7 @@ form input {
   width: 180px;
   height: 25px;
   display: inline-block;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 form button {
@@ -182,3 +178,33 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media screen and (min-width: 769px) {
+  /* Your styles for screens wider than 768px go here */
+ .mobile-flex-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+ }
+
+ ul#menu.flex-row {
+  padding: 0;
+ }
+
+ .logo {
+    font-size: 38px;
+  }
+
+  .about-images-and-text-flex {
+    display: flex;
+  }
+
+  .image-section {
+    width: 50%;
+    display: flex;
+  }
+  .text-section {
+    width: 50%;
+  }
+}

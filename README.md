@@ -1,5 +1,10 @@
 ## Change log
 
+- Left off implementing desktop view for nav and about.
+  - form
+  - ideas
+  - host
+
 - Understand Flexbox
   - parent child relationship
   - display: flex
