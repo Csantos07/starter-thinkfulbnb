@@ -20,7 +20,7 @@
 }
 
 .container-fill {
-  width: 80%;
+  width: 90%;
   /* padding: 1rem; */
   margin: 1rem;
 }
@@ -126,7 +126,6 @@ header nav ul li a {
   color: #fff;
   text-decoration: none;
   padding: 0 20px 0 0;
-  padding: 0 0px 0 0;
 }
 
 ul {
@@ -147,12 +146,18 @@ form {
 
 form label {
   font-weight: bold;
+  width: 110px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  height: 25px;
+  display: inline-block;
+  box-sizing: border-box; 
 }
 
 form button {
@@ -160,7 +165,7 @@ form button {
   border: none;
   color: #fff;
   font-size: 24px;
-  padding: 15px;
+  padding: 15px; /*mod mm 2px*/
   width: 100%;
 }
 
