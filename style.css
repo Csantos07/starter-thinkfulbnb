@@ -72,7 +72,7 @@ section.alternate-background {
 main img {
   width: 100px;
 }
-
+/*--------LOOK AT THIS WITH CARLO-------duplicate main img*/
 main img {
   width: 100%;
 }
@@ -182,3 +182,95 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media screen and (min-width: 769px) {
+  /* Your styles for screens wider than 768px go here */
+ .mobile-flex-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+ }
+
+ ul#menu.flex-row {
+  padding: 0;
+ }
+
+ .logo {
+    font-size: 38px;
+  }
+
+  .about-images-and-text-flex {
+    display: flex;
+  }
+
+  .image-section {
+    width: 50%;
+    display: flex;
+  }
+  .text-section {
+    width: 50%;
+  }
+
+
+  #stay form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2px 5px;
+  }
+
+  #stay form label {
+    width: 100%
+  }
+  
+  #stay form select,
+  form input {
+    display: inline-block;
+    box-sizing: border-box
+  }
+  
+  #stay form button {
+    padding: 10px 28px;
+    font-size: 18px;
+  }
+
+  #stay div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px 0 0;
+  }
+
+  
+  /* .ideas-mobile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .ideas-twoByTwo {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding-bottom: 50%; /* Same as width, sets height *//*
+    margin-bottom: 1%; /* (100-32*3)/2 */ /*
+    position: relative;
+  }*/
+  
+
+  /* -------  USING THIS STYLE ------- */
+  .ideas-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  /* -------  USING THIS STYLE ------- */
+
+  #ideas img {
+    width: 500px;
+  }
+
+
+}
