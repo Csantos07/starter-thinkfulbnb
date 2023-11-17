@@ -2,16 +2,16 @@
 
 11/16/2023--MM
 
--Added media query items from PP session 
-  -Header desktop view
-  -About desktop view
--Added forms desktop view
--Added ideas desktop view
-
+- Added media query items from PP session 
+  - Header desktop view
+  - About desktop view
+- Added forms desktop view
+- Added ideas desktop view
+git a 
 STILL TO DO AS OF 11/16
--Host desktop view
--Adjust text in about desktop view to be centered horizontally relative to pictures
--Forms adjustment in mobile view to be centered... 
+- Host desktop view
+- Adjust text in about desktop view to be centered horizontally relative to pictures
+- Forms adjustment in mobile view to be centered... 
 
 
 - Understand Flexbox
