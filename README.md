@@ -1,6 +1,7 @@
 ## Change log
 
 11/16/2023--MM
+
 -Added media query items from PP session 
   -Header desktop view
   -About desktop view
