@@ -210,6 +210,8 @@ footer p {
   }
   .text-section {
     width: 50%;
+    display: flex;
+    align-items: center;
   }
 
 
@@ -271,6 +273,45 @@ footer p {
   #ideas img {
     width: 500px;
   }
+#host {
+  display: flex;
+  align-items: center;
+}
+  .host-row {
+    display:flex;
+  }
 
+  .host-half-width {
+    width: 50%;
+    align-items: center;
+  }
 
+  .host-text {
+    /* width: fit-content; */
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+  }
+
+  #host .host-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0
+  } 
+
+  .add-padding {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  #host img {
+    width: 550px;
+  }
+
+  .target {
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: fit-content
+  }
 }
