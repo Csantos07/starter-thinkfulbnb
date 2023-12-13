@@ -35,6 +35,24 @@ main img {
 }
 
 /* ---  Groups & Items --- */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#about img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#ideas img {
+  width: 100%;
+}
+
+#host img {
+  width: 100%;
+}
 
 .group {
   display: flex;
@@ -117,3 +135,40 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+/* Your mobile styles go here */
+
+@media only screen and (min-width: 768px) {
+  /* Desktop styles go here */
+  /* Adjust your layout and styles for desktop view */
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 38px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+  #about .flex-row {
+    display: flex;
+    padding: 5px 0 0 0;
+    justify-content: space-between;
+  }
+  .image-section {
+    width: 50%;
+  }
+
+  #about img {
+    width: 50%;
+    margin: 5px;
+  }
+
+  .text-section {
+    margin-left: 10px;
+    width: 50%;
+    padding-right: 0;
+  }
+}
