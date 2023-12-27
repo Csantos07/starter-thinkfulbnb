@@ -134,6 +134,11 @@ form button {
   width: 100%;
   margin-bottom: 15px;
 }
+
+section.column.column-one {
+  /* background-color: red; */
+  padding: 0px;
+}
 /* -------  About Content END ------- */
 
 /* -------  Ideas Content ------- */
@@ -162,3 +167,54 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media screen and (min-width: 768px) {
+  /* Your CSS styles for screens with a width of 768 pixels or more go here */
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 15px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .column {
+    width: 50%;
+    /* border: 1px solid brown; */
+    padding: 10px 0px;
+  }
+
+  .column-one {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 10px; */
+    padding: 0;
+  }
+
+  section.alternate-background#about {
+    /* padding: 0px; */
+  }
+
+  .column-two {
+    width: 51%;
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+  }
+
+  #about img {
+    width: 50%;
+    margin: 5px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section.flex {
+    padding: 20px 20px;
+  }
+}
