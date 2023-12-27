@@ -1,4 +1,7 @@
 /* -------  General Styles ------- */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Lato", sans-serif;
@@ -33,16 +36,6 @@ section.alternate-background {
 main img {
   width: 100px;
 }
-
-/* ---  Menu Start --- */
-#menu {
-  display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  /* text-align: centers; */
-}
-
-/* ---  Menu End --- */
 
 /* ---  Groups & Items --- */
 
@@ -91,6 +84,11 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+#menu {
+  display: flex;
+  flex-direction: row;
+}
+
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
@@ -104,7 +102,8 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  min-width: 180px;
+  width: 60%;
 }
 
 form button {
@@ -115,6 +114,40 @@ form button {
   padding: 15px;
   width: 100%;
 }
+
+#stay section {
+  padding: 0;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------  About Content ------- */
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+#about img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* -------  About Content END ------- */
+
+/* -------  Ideas Content ------- */
+#ideas img {
+  width: 100%;
+}
+/* -------  Ideas Content END ------- */
+
+/* -------  Host Content  ------- */
+#host img {
+  width: 100%;
+}
+
+/* -------  Host Content END ------- */
 
 /* -------  Footer ------- */
 
